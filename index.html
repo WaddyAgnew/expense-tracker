@@ -11,10 +11,20 @@
 <body>
     <h3>Expense Traker</h3>
     <div class="container">
+        
+        
         <div class="expense-card">
-            <input type="text" id="Add mount-entry" placeholder="Amount">
-            <input type="button" id="Btn" value="Add">
+            <h1>Balance:</h1>
+            <h1 id="balance">$0.00</h1>
+            <form id = "form">
+                <div class="form-group">
+                    <input type="text" id="amount" placeholder="Amount">
+                    <input type="text" id="text" placeholder="Prurchase">
+                    <button class="btn">Add</button>
+                </div>
+            </form>
         </div>
+        
         <ul id="list" class="list">
 
         </ul>

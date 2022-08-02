@@ -12,6 +12,23 @@ h3 {
     align-items: center;
     font-size: x-large;
 }
+#form {
+    display: inline-block;
+}
+input[type='text'] {
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 8px;
+    width: 40%;
+    margin-left: -5px;
+}
+.btn{
+border: 1px solid #dedede;
+border-radius: 2px;
+padding: 8px;
+margin-left: -5px;
+}
+
 .container{
     justify-content: center;
     display:flex;
@@ -20,9 +37,9 @@ h3 {
     background: rgb(238, 240, 239);
 }
 .expense-card{
-    background: rgb(77, 126, 44);
+    background: rgb(44, 110, 126);
     color: white;
-
+    height: 700px;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
