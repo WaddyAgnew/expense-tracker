@@ -15,20 +15,35 @@
         
         <div class="expense-card">
             <h1>Balance:</h1>
-            <h1 id="balance">$0.00</h1>
+            <h1 id="balanceDisplay">$0.00</h1>
             <form id = "form">
                 <div class="form-group">
-                    <input type="text" id="amount" placeholder="Amount">
-                    <input type="text" id="text" placeholder="Prurchase">
-                    <span onclick="list_Update()"></span>
-                    <button type="button" id="btn">Add</button>
+                    <input 
+                    type="text" 
+                    id="amount" 
+                    placeholder="Amount"
+                    />
+                    <input 
+                    type="text" 
+                    id="item" 
+                    placeholder="Prurchase"
+                    />
+                    <button type="button" onclick="update()" id="btn">Add</button>
+                   
                 </div>
             </form>
-        </div>
+            <div class="table_amount">
+             <ul id="list_1" class="list_1">
+                
+             </ul> 
+            </div>
+            <div class="table_item">
+             <ul id="list_2" class="list_2">
+                
+             </ul> 
+            </div>
         
-        <ul id="list">
-            <li>df</li>
-        </ul>
+       
     </div>
 </body>
 </html>
